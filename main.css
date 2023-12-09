@@ -1,0 +1,21 @@
+/* Basic styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #f6b5cd;
+    --main-font: #000;
+    --secondary-font: #505050;
+}
+
+.main-bg-color {
+    background-color: var(--bg-color);
+}
+
+.txt-gray {
+    color: var(--secondary-font);
+}
+
